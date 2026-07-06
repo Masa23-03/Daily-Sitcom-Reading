@@ -121,3 +121,23 @@ const traitsArr = [
   "start strong and immediately get distracted",
   "act like you know what is happening",
 ];
+
+const generateRandomNumber = (lengthOf) => {
+  return Math.floor(Math.random() * lengthOf);
+};
+
+//create message
+const createRandomMessage = () => {
+  const randomCharacter =
+    sitcomCharactersArr[generateRandomNumber(sitcomCharactersArr.length)];
+  //   console.log(randomCharacter);
+  const randomTrait = traitsArr[generateRandomNumber(traitsArr.length)];
+  //   console.log(randomTrait);
+  const randomAction = actionsArr[generateRandomNumber(actionsArr.length)];
+  //   console.log(randomAction);
+
+  return `Today you are ${randomCharacter.name} from ${randomCharacter.show}, because you both ${randomTrait}.
+You should ${randomAction}.`;
+};
+
+console.log(createRandomMessage());
