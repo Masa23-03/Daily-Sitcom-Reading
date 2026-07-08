@@ -2,36 +2,40 @@
 
 **Daily Sitcom Reading** is a JavaScript message generator that creates a random sitcom-style reading every time it runs.
 
-Each message combines a sitcom character, the show they are from, a random personality trait, and a random action/advice line.
+Each message combines random ASCII art, a sitcom character, the show they are from, a personality trait, and a random action.
 
-Today you are [character name] from [show], because you both [trait].
-You should [action].
+## Message Format
+
+[ASCII art]
+
+Today you are [character name] from [show],
+because you both [trait]
+You should [action]
 
 ## Example Output
 
-Today you are Michael Scott from The Office, because you both act confident with no plan.
-
-You should drink water and stop making decisions for five minutes.
+Today you are Michael Scott from The Office,
+because you both act confident with absolutely no plan
+You should make coffee before speaking to anyone
 
 ## Features
 
 - Generates a new random message every time the program runs
 - Uses sitcom characters from different TV shows
-- Combines multiple random pieces of data into one message
+- Includes random ASCII art
+- Combines multiple random pieces of data into one output
 - Runs locally from the command line
 
 ## How It Works
 
-The program stores sitcom characters, traits, and actions in separate collections.
+The project stores the message data in separate collections:
 
-When the program runs, it randomly selects:
+- ASCII art
+- Sitcom characters
+- Personality traits
+- Random actions
 
-- A sitcom character
-- The show they are from
-- A personality trait
-- An action or advice line
-
-Then it combines them into one final message.
+When the program runs, it randomly selects one item from each collection and combines them into one final message.
 
 ## Tech Stack
 
@@ -39,3 +43,11 @@ Then it combines them into one final message.
 - Node.js
 - Git
 - GitHub
+
+## How to Run
+
+Run the project from the command line:
+
+```bash
+node main.js
+```
