@@ -453,4 +453,4 @@ const asciiArt = [
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     `,
 ];
 
-export { sitcomCharactersArr, traitsArr, actionsArr, asciiArt };
+module.exports = { sitcomCharactersArr, traitsArr, actionsArr, asciiArt };

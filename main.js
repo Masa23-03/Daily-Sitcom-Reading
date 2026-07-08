@@ -1,9 +1,9 @@
-import {
+const {
   sitcomCharactersArr,
   traitsArr,
   actionsArr,
   asciiArt,
-} from "./data.js";
+} = require("./data.js");
 
 const collectedInfo = {
   ascii: asciiArt,
