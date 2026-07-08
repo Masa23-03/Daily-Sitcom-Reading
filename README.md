@@ -6,17 +6,27 @@ Each message combines random ASCII art, a sitcom character, the show they are fr
 
 ## Message Format
 
+```text
 [ASCII art]
 
 Today you are [character name] from [show],
 because you both [trait]
 You should [action]
+```
 
 ## Example Output
+
+```text
+✷ 　 　　 　 ·
+ 　 ˚ * .
+ 　 　　 *　　 * ⋆ 　 .
+ · 　　 ⋆ 　　　 ˚ ˚ 　　 ✦
 
 Today you are Michael Scott from The Office,
 because you both act confident with absolutely no plan
 You should make coffee before speaking to anyone
+```
+
 
 ## Features
 
